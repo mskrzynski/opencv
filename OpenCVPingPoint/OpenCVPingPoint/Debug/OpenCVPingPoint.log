@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  OpenCVPingPoint.cpp
+c:\users\mrmateczko\source\repos\opencvpingpoint\opencvpingpoint\opencvpingpoint.cpp(93): fatal error C1010: Nieoczekiwany koniec pliku podczas wyszukiwania prekompilowanego pliku nagłówkowego. Czy zapomniano dodać „#include "stdafx.h"” do źródła?
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(380,5): error MSB6006: Polecenie „CL.exe” zakończone przez kod 2.
