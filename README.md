@@ -10,8 +10,6 @@ Pamiętaj o zmiennej Licz Punkty
 2. Przycisk do rozpoczynania zliczania (oddzielne okno)
 3. Liczenie odbić, a zarazem liczenie punktów i wysyłanie sygnałów
 4. wygląd, optymalizacja
-5. sprawdzić aplikację na innym środowisku (laptop), opisać co trzeba zrobić!
-Visual C++ 2015 lub 2017 redistributable / Universal C Runtime / OpenCV dll
 
 Wspomnieć o inny programie do ustawiania parametrów kamery
 
