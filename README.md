@@ -1,29 +1,28 @@
 ﻿# opencv
 
-Program C++ z OpenCV (live obraz, śledzenie piłeczki, zaliczanie punktu)
- dla Visual Studio 2017
+Program OpenCVPingPoint dla projektu "PingPoint"
 
-TODO:
-0. Opisac jak uruchomic projekt i jak go obslugiwac 
+TODO/Notatki:
 
-1. Ustalenie najlepszej metody do rysowania prostokata reprezentujacego stół (usprawnic wszystkie trzy istniejace metody)
+Pamiętaj o zmiennej Licz Punkty
 
-2. Implementacja nachodzenia piłeczki na prostokąt: https://www.google.pl/search?q=opencv+overlapping i ustawiania flagi na to zdarzenie
+1. Lepsza kalibracja piłki (auto HSV i inna magia)
+2. Przycisk do rozpoczynania zliczania (oddzielne okno)
+3. Liczenie odbić, a zarazem liczenie punktów i wysyłanie sygnałów
+4. wygląd, optymalizacja
+5. sprawdzić aplikację na innym środowisku (laptop), opisać co trzeba zrobić!
+Visual C++ 2015 lub 2017 redistributable / Universal C Runtime / OpenCV dll
 
-3. Przesyłanie flagi do aplikacji C#, tworzenie prostokąta zgodnie z aplikacją (przecięcie na pół itp.)
+Wspomnieć o inny programie do ustawiania parametrów kamery
 
-4. Upiększenie interfejsu jak to tylko potrzebne
+wytyczne dotyczące kalibracji: 
+- stół z brzegiem 
+- piłka na stole leżąca 
 
-5. Zmiana projektu z Debug na Release
-
-6. Optymalizacja
-
-
-
-
-
+FullHD 50FPS (za wolno, trzeba niższą rozdzielczość)
 
 przestarzałe info, może się jednak przydac:
+
 Rysowanie okręgu piłeczki wraz z istniejącą linią:
 
 http://layer0.authentise.com/detecting-circular-shapes-using-contours.html
