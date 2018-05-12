@@ -1,31 +1,14 @@
 ﻿# opencv
 
-Program OpenCVPingPoint dla projektu "PingPoint"
+Program OpenCVPingPoint dla projektu "PingPoint" zespołu nr 10
 
-TODO/Notatki:
+TODO:
 
-Pamiętaj o zmiennej Licz Punkty
+1. Zrobić obie dokumentacje
+2. Zaimplementować zdarzenie kiedy piłka opuszcza dany prostokąt
+3. Zaimplementować liczenie odbić, która strona zaczyna, wysyłanie odpowiednich sygnałów
+4. Dodać ekran powitalny z wyborem kamery/pliku video
+5. Zmiana na tryb aplikacji niekonsolowej
+6. Wygląd, optymalizacja, drobnostki
 
-1. Lepsza kalibracja piłki (auto HSV i inna magia)
-2. Przycisk do rozpoczynania zliczania (oddzielne okno)
-3. Liczenie odbić, a zarazem liczenie punktów i wysyłanie sygnałów
-4. wygląd, optymalizacja
-
-Wspomnieć o inny programie do ustawiania parametrów kamery
-
-wytyczne dotyczące kalibracji: 
-- stół z brzegiem 
-- piłka na stole leżąca 
-
-FullHD 50FPS (za wolno, trzeba niższą rozdzielczość)
-
-przestarzałe info, może się jednak przydac:
-
-Rysowanie okręgu piłeczki wraz z istniejącą linią:
-
-http://layer0.authentise.com/detecting-circular-shapes-using-contours.html
-
-https://docs.opencv.org/2.4/modules/imgproc/doc/structural_analysis_and_shape_descriptors.html (minEnclosingCircle, approxPolyDP - przetestowac te funkcje)
-
-Czy istniejacy obraz HSV (ktory musi byc idealnie okrągły) będzie w tym pomocny?
-
+Wszelkie informacje dotyczące programu OpenCVPingPoint znajdują się w dołączonej dokumentacji
